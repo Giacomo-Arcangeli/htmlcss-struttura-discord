@@ -5,3 +5,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+
+header{
+    background-color: rgb(112, 219, 251);
+    min-height: 80px;
+    padding: 20px; 
+}
+
+.menu{
+    background-color: orange;
+    width: 1080px;
+    margin: 0 auto;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px dashed black;
+}
+
+.logo{
+    flex-basis: 20%;
+    border-right: 2px dashed black;
+    padding: 15px
+}
+
+.link{
+    flex-basis: 60%;
+    text-align: center;
+    padding: 15px
+}
+
+.login{
+    flex-basis: 20%;
+    border-left: 2px dashed black;
+    text-align: end;
+    padding: 15px
+}
