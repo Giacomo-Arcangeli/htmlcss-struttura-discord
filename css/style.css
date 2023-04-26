@@ -60,7 +60,9 @@ header{
     padding: 15px
 }
 
-/* SECTION */
+/* MAIN */
+
+/* box piccolo */
 
 .row-1{
     min-height: 350px;
@@ -76,6 +78,8 @@ header{
     background-color: pink;
     border: 2px dashed black;
 }
+
+/* box simili */
 
 .row-2{
     min-height: 350px;
@@ -100,6 +104,8 @@ header{
     background-color: blueviolet;
 }
 
+/* box grande */
+
 .row-3{
     min-height: 630px;
     display: flex;
@@ -112,3 +118,37 @@ header{
     border: 2px dashed black;
     background-color: green
 }
+
+/* box con minibox */
+
+.row-4{
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-4{
+    display: flex;
+    height: 380px;
+    border: 2px dashed black;
+    margin-bottom: 20px;
+}
+
+.left-2{
+    flex-basis: 30%;
+    background-color: rgb(237, 100, 100);
+    border-right: 2px dashed black;
+}
+
+.right-2{
+    flex-basis: 70%;
+    background-color: darkturquoise;
+    display: flex;
+}
+.minibox{
+    flex-basis: 25%;
+    border: 2px dashed white;
+}
+
+/* FOOTER */
+
