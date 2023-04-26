@@ -152,3 +152,27 @@ header{
 
 /* FOOTER */
 
+footer{
+    min-height: 80px;
+    background-color: darkslategrey;
+    margin: 2px 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.footer-box{
+    background-color: aquamarine;
+    width: 1080px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    background-color: darksalmon;
+    width: 70px;
+    height: 30px;
+    border: 2px dashed black;
+}
